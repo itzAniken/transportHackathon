@@ -1,0 +1,18 @@
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large Datasets
+data/raw/gtfs/*.txt
+data/raw/gps/*.db
+data/raw/gps/*.7z
+data/processed/*.parquet
+
+# OS & Environment
+.env
+.venv
+env/
+.DS_Store
+Thumbs.db
